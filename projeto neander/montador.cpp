@@ -1,3 +1,10 @@
+/*DUPLA:
+
+GUSTAVO DE JESUS MOREIRA: SP3294528
+LUCAS MOURA: coloca aqui o seu 
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -44,7 +51,7 @@ int main(int argc, char *argv[])
     char instrucao[10];
 
 
-    entrada = fopen("entrada.asm", "r");
+    entrada = fopen("entrada.asm", "r"); //colocar o nome do arquivo de entrada como argumento
 
     if(entrada == NULL)
     {
@@ -61,7 +68,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    /* Cabeçalho obrigatório */
+    /* CabeÃ§alho obrigatÃ³rio */
     unsigned char cabecalho[] = {
         0x03, 0x4E, 0x44, 0x52
     };
